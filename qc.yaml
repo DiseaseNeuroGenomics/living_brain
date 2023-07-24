@@ -1,0 +1,17 @@
+name: qc
+
+channels:
+  - conda-forge
+  - anaconda
+dependencies:
+  - pip
+  - ipykernel
+  - openpyxl
+  - loompy
+  - conda-forge::scanpy=1.9.3
+  - pip:
+    - anndata
+    - mygene
+    - pegasuspy[louvain]
+    - harmonypy
+    - srublet
