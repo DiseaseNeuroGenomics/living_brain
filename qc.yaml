@@ -1,14 +1,19 @@
-name: qc
+name: qc_torch
 
 channels:
   - conda-forge
   - anaconda
+  - pytorch
+  - hcc
 dependencies:
   - pip
   - ipykernel
   - openpyxl
   - loompy
   - conda-forge::scanpy=1.9.3
+  - pytorch
+  - torchvision
+  - cellranger
   - pip:
     - anndata
     - mygene
