@@ -1,0 +1,25 @@
+name: scvi
+
+channels:
+  - conda-forge
+  - anaconda
+  - pytorch
+  - nvidia
+dependencies:
+  - pip
+  - python=3.9
+  - ipykernel
+  - openpyxl
+  - pytorch=2.0.1
+  - pytorch-cuda=11.7
+  - torchvision
+  - conda-forge::pytorch-lightning=2.0.6
+  - conda-forge::scanpy=1.9.3
+  - conda-forge::scvi-tools
+  - conda-forge::lightning=2.0.1
+  - jax=0.4.14
+  - conda-forge::numba=0.57.1
+  - conda-forge::leidenalg
+  - pip:
+    - flax==0.7.1
+    - numpy==1.24
