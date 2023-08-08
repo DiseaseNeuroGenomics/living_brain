@@ -24,3 +24,4 @@ dependencies:
     - flax==0.7.1
     - numpy==1.24
     - pegasuspy[louvain]
+    - contrastive-vi
