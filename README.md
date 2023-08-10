@@ -6,7 +6,7 @@ Pipeline to filter and annotate living brain scRNA data
 **Step 1. ambient_removal**  
 Removes ambient mRNA using CellBender and saves output anndata  
 
-**Step 2. data_consolidation** 
+**Step 2. data_consolidation**   
 Concatenates anndata from all samples after ambient removal  
 
 **Step 3. qc**  
